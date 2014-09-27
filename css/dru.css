@@ -33,6 +33,10 @@ img#ert {
 	height: auto;
 }
 
+a#image {	
+	padding-top: 3%;
+}
+
 #header {
     position: fixed;
     width: 100%;
@@ -58,17 +62,17 @@ img#ert {
 }
 
 #characters {
-	padding: 6% 0 0% 02%; /*top, right, bottom, left*/
+	padding: 6% 0 0% 2%; /*top, right, bottom, left*/
 }
 
 #characters table td {
 	width: 30%;
-	margin-left: 4%;
+	padding: 0 1% 0 0;
 	vertical-align: top;
 }
 
 #environments{
-	padding: 10% 0 0% 02%;
+	padding: 4% 0 0% 2%;
 }
 
 #column1 {
@@ -80,4 +84,12 @@ margin-right: 2%;
 #column2 {
 width: 48%;
 float: left;
+}
+
+#ert:hover  {
+box-shadow: 0px 0px 5px #F0F0F0;
+}
+
+#image {
+    padding-bottom: 4%;
 }
