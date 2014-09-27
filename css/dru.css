@@ -1,13 +1,71 @@
 body {
     margin: 0;
-    color: #777;
+    color: #ffffff;
     font-family: 'Franklin Gothic Book', sans-serif;
     font-size: 15px;
     background-color: #000000;
 }
 
+a, .social a { 
+    color: #505050;
+    text-decoration: none;
+}
+
+a { 
+    font-size: inherit;
+    transition: all 0.3s ease 0s;
+}
+
+a:hover, .social a:hover { 
+    color: inherit;   
+}
+
+img#ert {
+	width: 100%;
+	height: auto;
+}
+
 #header {
     position: fixed;
     width: 100%;
-    padding: ; /*top, right, bottom, left*/
+    padding: 0.5% 0 0.5% 2%; /*top, right, bottom, left*/
+	background: rgba(255, 255, 255, 0.60);
+}
+
+#dru {
+	vertical-align: middle;
+	padding: 0.5% 0 0.5% 0.5%;
+	margin-left: 2%;
+}
+
+#logo {
+	float: left;
+	height: 42px;
+	width: auto;
+	margin-right: 2%;
+}
+
+#title {
+	color: rgba(0, 0, 0, 1.0);;
+}
+
+#col1 {
+	width: 30%;
+	float: left;
+	margin-right: 4%;
+	clear: both;
+}
+
+#col2 {
+	width: 30%;
+	float: left;
+	margin-right: 4%;
+	clear: both;
+}
+
+#col3 {
+	width: 30%;
+	float: left;
+	margin-right: 4%;
+	clear: both;
 }
