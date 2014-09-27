@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    color: #777;
+    font-family: 'Franklin Gothic Book', sans-serif;
+    font-size: 15px;
+    background-color: #000000;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    padding: ; /*top, right, bottom, left*/
+}
