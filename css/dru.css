@@ -19,26 +19,15 @@ h1 {
     color: #909090;
 }
 
-h2 {
-    font-weight: 200;
-    font-size: 24px;
-    text-align: left; 
-    margin-bottom: 2%;
-    color: #909090;
-}
-
-a, .social a { 
-    color: #505050;
-    text-decoration: none;
-}
-
 a { 
     font-family: 'Franklin Gothic Book', sans-serif;
-    font-size: inherit;
+    font-size: 20px;
+    color: #A8A8A8;
+    text-decoration: none;
     transition: all 0.3s ease 0s;
 }
 
-a:hover, .social a:hover { 
+a:hover { 
     color: inherit;   
 }
 
@@ -55,8 +44,8 @@ a#image {
     position: fixed;
     width: 100%;
     height: 60px;
-    padding: 0.5% 0 0.5% 2%; /*top, right, bottom, left*/
-	background: rgba(255, 255, 255, 0.60);
+    padding: 0.5% 0 0.5% 0.5%; /*top, right, bottom, left*/
+	background: rgba(100, 100, 100, 0.80);
 }
 
 #dru {
@@ -73,8 +62,14 @@ a#image {
     vertical-align: middle;
 }
 
+/* ANDREW GOUDREAU */
 #title {
-	color: rgba(0, 0, 0, 1.0);;
+	color: #ffffff;
+}
+
+/* ILLUSTRATOR FROM MONTREAL */
+#description {
+    color: rgba(30, 30, 30, 1.0);
 }
 
 #characters {
@@ -88,11 +83,24 @@ a#image {
 }
 
 #environments {
-	padding: 4% 0 5% 2%;
+	padding: 5% 0 5% 2%;
 }
 
-#games {
+#gameart {
     padding: 10% 0 0% 2%;
+}
+
+#gametitle {
+    font-weight: 200;
+    font-size: 28px;
+    text-align: left; 
+    margin-bottom: 2%;
+    font-family: 'Bell Gothic Black', sans-serif;
+    clear: both;
+}
+
+#gamedesc {
+    padding: 1% 0 1% 2%;
 }
 
 #column1 {
