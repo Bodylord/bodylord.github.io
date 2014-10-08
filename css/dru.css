@@ -118,7 +118,8 @@ img#contact:hover {
 }
 
 #gameart {
-    padding: 10% 0 0% 2%;
+    /*padding: 10% 0 0% 2%;*/
+    padding: 6% 0 0% 1%; /*top, right, bottom, left*/
 }
 
 #gametitle {
