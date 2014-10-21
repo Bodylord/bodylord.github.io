@@ -157,6 +157,17 @@ img#contact:hover {
     float: left;
 }
 
+#wi1 {
+    width: 51%;
+    float: left;
+    margin-right: 2%;
+}
+
+#wi2 {
+    width: 45%;
+    float: left;
+}
+
 #ert:hover  {
     box-shadow: 0px 0px 5px #ffffff;
     transition: all 0.3s ease 0s;
