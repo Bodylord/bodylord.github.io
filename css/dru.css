@@ -125,7 +125,7 @@ img#contact:hover {
 
 #games {
     /*padding: 10% 0 0% 2%;*/
-    padding: 6% 0 0% 1%; /*top, right, bottom, left*/
+    padding: 6% 1% 0% 1%; /*top, right, bottom, left*/
 }
 
 #gametitle {
