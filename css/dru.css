@@ -104,7 +104,7 @@ img#contact:hover {
 }
 
 #characters {
-	padding: 6% 0 0% 2%; /*top, right, bottom, left*/
+	padding: 5% 0 0% 2%; /*top, right, bottom, left*/
 }
 
 #characters table td {
@@ -114,7 +114,13 @@ img#contact:hover {
 }
 
 #environments {
-	padding: 5% 0 5% 2%;
+	padding: 5% 0 0% 2%;
+}
+
+#environments table td {
+    width: 48%;
+    padding: 0 2% 0 0;
+    vertical-align: top;
 }
 
 #games {
@@ -133,17 +139,6 @@ img#contact:hover {
 
 #gamedesc {
     padding: 1% 0 1% 2%;
-}
-
-#column1 {
-    width: 48%;
-    float: left;
-    margin-right: 2%;
-}
-
-#column2 {
-    width: 48%;
-    float: left;
 }
 
 #titlecol {
