@@ -146,6 +146,17 @@ img#contact:hover {
     float: left;
 }
 
+#titlecol {
+    width: 56%;
+    float: left;
+    margin-right: 2%;
+}
+
+#postercol {
+    width: 41%;
+    float: left;
+}
+
 #ert:hover  {
     box-shadow: 0px 0px 5px #ffffff;
     transition: all 0.3s ease 0s;
