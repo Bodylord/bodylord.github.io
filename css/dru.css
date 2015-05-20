@@ -103,6 +103,16 @@ img#contact:hover {
     color: rgba(30, 30, 30, 1.0);
 }
 
+#illlustrations {
+    padding: 5% 0 0% 2%; /*top, right, bottom, left*/
+}
+
+#illlustrations table td {
+    width: 30%;
+    padding: 0 1% 0 0;
+    vertical-align: top;
+}
+
 #characters {
 	padding: 5% 0 0% 2%; /*top, right, bottom, left*/
 }
