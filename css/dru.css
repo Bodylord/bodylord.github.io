@@ -138,6 +138,11 @@ img#contact:hover {
     padding: 6% 1% 0% 1%; /*top, right, bottom, left*/
 }
 
+#hnl {
+    /*padding: 10% 0 0% 2%;*/
+    padding: 6% 25% 0% 1%; /*top, right, bottom, left*/
+}
+
 #gametitle {
     font-weight: 200;
     font-size: 28px;
