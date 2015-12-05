@@ -114,7 +114,13 @@ img#contact:hover {
 }
 
 #characters {
-	padding: 1% 0 0 2%; /*top, right, bottom, left*/
+	padding: 0 0 0 2%; /*top, right, bottom, left*/
+}
+
+#characters table td {
+	width: 30%;
+	padding: 0 1% 0 0;
+	vertical-align: top;
 }
 
 #characterfocus {
@@ -125,12 +131,6 @@ img#contact:hover {
     width: 100%;
     padding: 0 1% 0 1%;
     vertical-align: top;
-}
-
-#characters table td {
-	width: 30%;
-	padding: 0 1% 0 0;
-	vertical-align: top;
 }
 
 #environments {
