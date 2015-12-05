@@ -114,11 +114,11 @@ img#contact:hover {
 }
 
 #characters {
-	padding: 1% 0 0% 2%; /*top, right, bottom, left*/
+	padding: 1% 0 0 2%; /*top, right, bottom, left*/
 }
 
 #characterfocus {
-    padding: 5% 0 0% 2%; /*top, right, bottom, left*/
+    padding: 0 0 0 2%; /*top, right, bottom, left*/
 }
 
 #characterfocus table td{
