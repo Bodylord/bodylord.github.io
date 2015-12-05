@@ -117,6 +117,16 @@ img#contact:hover {
 	padding: 5% 0 0% 2%; /*top, right, bottom, left*/
 }
 
+#characterfocus {
+    padding: 5% 0 0% 2%; /*top, right, bottom, left*/
+}
+
+#characterfocus table td{
+    width: 100%;
+    padding: 0 1% 0 1%;
+    vertical-align: top;
+}
+
 #characters table td {
 	width: 30%;
 	padding: 0 1% 0 0;
